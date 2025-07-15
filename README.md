@@ -49,13 +49,14 @@ Example
 Here is a basic example of how to use the PartisanshipEstimator class.
 
 '''python
+
 import pandas as pd
 import pickle
 from ppr_methods import PartisanshipEstimator # Assuming the class is in this file
 
 # 1. Load your data
 # This is an example; you will load your actual data here.
-# comments_df should have columns like ['publisher_id', 'news_id']
+# comments_df should have columns like ['user_id', 'news_id']
 comments_df = pd.read_pickle("path/to/your/comment_data.pkl")
 
 # seed_scores is a dict like {'news_id_1': -1, 'news_id_2': 1, ...}
@@ -78,6 +79,7 @@ right_leaning_users = final_scores_df[final_scores_df['type'] == 'user'].sort_va
 
 print("\nTop 10 most right-leaning users:")
 print(right_leaning_users)
+
 '''
 
 Code Structure
