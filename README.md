@@ -29,22 +29,6 @@ Includes helper functions for visualizing the score distributions.
 Requirements
 The necessary Python libraries are listed in the requirements.txt file.
 
-pandas
-
-numpy
-
-scipy
-
-tqdm
-
-matplotlib
-
-seaborn
-
-tldextract
-
-plotly
-
 Installation
 Clone the repository:
 
