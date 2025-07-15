@@ -31,7 +31,7 @@ The necessary Python libraries are listed in the requirements.txt file.
 Installation
 Clone the repository:
 
-git clone https://github.com/CSS-Laboratory/Partisanship-Estimation
+git clone https://github.com/CSS-Laboratory/Partisanship-Estimation.git
 cd your-repo-name
 
 Install the required packages using pip:
