@@ -35,9 +35,9 @@ git clone https://github.com/CSS-Laboratory/Partisanship-Estimation.git
 cd your-repo-name
 
 Install the required packages using pip:
-
+'''python
 pip install -r requirements.txt
-
+'''
 Usage
 To use the estimator, you need to prepare two main pieces of data:
 
@@ -48,6 +48,7 @@ seed_scores: A Python dictionary where keys are the news_id of the seed articles
 Example
 Here is a basic example of how to use the PartisanshipEstimator class.
 
+'''python
 import pandas as pd
 import pickle
 from ppr_methods import PartisanshipEstimator # Assuming the class is in this file
@@ -77,6 +78,7 @@ right_leaning_users = final_scores_df[final_scores_df['type'] == 'user'].sort_va
 
 print("\nTop 10 most right-leaning users:")
 print(right_leaning_users)
+'''
 
 Code Structure
 ppr_methods.py: Contains the main PartisanshipEstimator class and its methods.
