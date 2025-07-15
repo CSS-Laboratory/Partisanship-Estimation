@@ -1,8 +1,7 @@
-# Partisanship-Estimation
 Partisanship Estimation using Personalized PageRank
 This repository contains the Python source code for estimating the partisanship of users, news articles, and media agencies from a comment network. The methodology is based on applying the Personalized PageRank (PPR) algorithm to a bipartite graph of users and the articles they comment on.
 
-This project was developed as part of a data analysis series detailed in our blog post: https://www.patreon.com/posts/partisanship-how-133450983?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link.
+This project was developed as part of a data analysis series detailed in our blog post: Mapping Media Bias: How We Used AI and a 'Biased Voter' Algorithm to Chart Partisanship on Yahoo! News Japan.
 
 Overview
 The core of this project is the PartisanshipEstimator class, which takes a dataset of user comments and a small set of "seed" articles with known political leanings (left or right) to infer the partisanship of all other nodes in the network.
@@ -32,7 +31,7 @@ The necessary Python libraries are listed in the requirements.txt file.
 Installation
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/CSS-Laboratory/Partisanship-Estimation
 cd your-repo-name
 
 Install the required packages using pip:
@@ -50,6 +49,7 @@ Example
 Here is a basic example of how to use the PartisanshipEstimator class.
 
 import pandas as pd
+import pickle
 from ppr_methods import PartisanshipEstimator # Assuming the class is in this file
 
 # 1. Load your data
@@ -96,4 +96,4 @@ Helper Functions: The script also includes functions like kde_plot for creating 
 Citation
 If you use this methodology or code in your research, please consider citing our original blog post:
 
-Kunhao Yang. (2025). "Mapping Media Bias: How We Used AI and a 'Biased Voter' Algorithm to Chart Partisanship on Yahoo! News Japan." CSS Lab. [[Link]](https://www.patreon.com/posts/partisanship-how-133450983?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+Kunhao Yang. (2025). "Mapping Media Bias: How We Used AI and a 'Biased Voter' Algorithm to Chart Partisanship on Yahoo! News Japan." CSS Lab. [Link]
