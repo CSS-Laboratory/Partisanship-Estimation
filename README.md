@@ -98,4 +98,4 @@ print(right_leaning_users)
 
 If you use this methodology or code in your research, please consider citing our original blog post:
 
-> Kunhao Yang. (2025). "Mapping Media Bias: How We Used AI and a 'Biased Voter' Algorithm to Chart Partisanship on Yahoo\! News Japan." CSS Lab. [Link](https://www.google.com/search?q=https://www.patreon.com/posts/partisanship-how-133450983)
+> Kunhao Yang. (2025). "Mapping Media Bias: How We Used AI and a 'Biased Voter' Algorithm to Chart Partisanship on Yahoo\! News Japan." CSS Lab. [Link](https://www.patreon.com/posts/partisanship-how-133450983)
